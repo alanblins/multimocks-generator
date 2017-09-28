@@ -13,7 +13,8 @@ Create MultimocksConfigFile.js file containing information of the API and the fo
 node src/index.js
 ```
 Then a folder containg all json files and mockResources.json will be created on the same folder.
-Sample of MultimocksConfigFile.js
+
+# MultimocksConfigFile.js
 ```js
 module.exports = function (app) {
 	app.setData({
