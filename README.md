@@ -1,20 +1,20 @@
-## multimocks-generator
+# multimocks-generator
 
-Read API and save the responses into multimocks format file with mockResourse.json.
-### Instalation
+Read API and save the responses into [multimocks](https://github.com/wongatech/angular-multimocks) format file with mockResourse.json.
+## Instalation
 ```
 npm install
 npm install -g typescript
 tsc -p src/
 ```
-### Running
+## Running
 Create MultimocksConfigFile.js file containing information of the API and the folders then run by typing:
 ```sh
 node src/index.js
 ```
 Then a folder containg all json files and mockResources.json will be created on the same folder.
 
-# MultimocksConfigFile.js
+## MultimocksConfigFile.js
 ```js
 module.exports = function (app) {
 	app.setData({
